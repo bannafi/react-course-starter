@@ -126,6 +126,10 @@ html {
   outline: unset;
 }
 
+.add-btn.main-black-color:active {
+  text-shadow: 1px 1px 2px var(--main-black-color);
+}
+
 .todos {
   display: flex;
   flex-direction: column;
@@ -139,4 +143,14 @@ html {
 
   min-height: 34px;
   margin: 16px 0 0;
+  font-family: 'homemade apple', sans-serif;
+  font-size: 24px;
+
+  border-bottom: 1px solid var(--main-red-color);
+}
+
+.todo-text {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%); 
 }
