@@ -12,7 +12,7 @@
 }
 
 .main-black-color {
-  color var(--main-black-color);
+  color: var(--main-black-color);
 }
 
 html {
